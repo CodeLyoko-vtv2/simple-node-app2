@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello World! This is my first deployed Node.js app!");
+  res.send("Hello World! This is my first deployed Node.js app!. This app is running on Render/Railway.");
 });
 
 app.listen(PORT, () => {
